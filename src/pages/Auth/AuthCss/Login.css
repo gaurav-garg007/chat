@@ -1,0 +1,103 @@
+.LoginBg,
+.ResetBg,
+.ForgotBg,
+.SignUpBg {
+    background: rgba(233 234 243 1);
+    background-size: cover;
+    /* min-height: calc(100vh - 62px); */
+    width: 100%;
+    min-height: 100vh;
+}
+.LoginBg>div,
+.ResetBg>div,
+.ForgotBg>div,
+.SignUpBg>div,
+.user-profile {
+    /* background: url(../../../images/bg.png);
+    background-size: cover; */
+    min-height: calc(100vh - 68px) !important;
+    /* width: 100%; */
+}
+.signupimgbg{
+    background: rgba(20, 118, 255, .1);
+}
+.card {
+    border-radius: 15px;
+}
+.FormDiv>input {
+border-radius: 30px;
+padding: 5px;
+box-shadow: 0px 0px 10px #E9EAF3;
+border: 2px solid #E9EAF3;
+width: 100%;
+outline: none;
+}
+.Forgot {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+margin-bottom: 5px;
+}
+.Password {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+.Password>input {
+    border: none;
+    background: transparent;
+    width: 86%;
+}
+.Password>button {
+    border: none;
+    background: transparent;
+}
+.Password>input:focus {
+    border: none;
+    outline: none;
+}
+.auth-error {
+    font-size: 12px;
+    font-weight: 600;
+}
+.Button {
+    border: none;
+    background-color: #1476FF;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 22px;
+    border-radius: 45px;
+}
+.Button:disabled {
+    opacity: 0.5;
+}
+.OtpInputBox {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.OtpInputBox>input {
+    /* font-size: 45px; */
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 50px !important;
+    width: 50px !important;
+
+    -webkit-text-security: square;
+}
+.OtpInputBox1>input {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #E9EAF3;
+    height: 40px !important;
+    width: 40px !important;
+}
+.resize:active {
+    /* -webkit-transform: scale(50%); */
+    transform: scale(0.5);
+}
