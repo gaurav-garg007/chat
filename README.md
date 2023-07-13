@@ -4,4 +4,4 @@
 g-chat.tau.vercel.app
 ```
 
-[check app](g-chat.tau.vercel.app)
+[check app](https://g-chat.tau.vercel.app)
